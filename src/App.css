@@ -1,3 +1,6 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
 header {
   min-height: 150px;
   .nav-link {
@@ -39,5 +42,13 @@ footer {
   .downFooter {
     background-color: #303030;
     min-height: 150px;
+    .text_blue {
+      color: #0282f9;
+    }
+    .sign {
+      border: 1px solid #0282f9;
+      text-decoration: none;
+      color: white;
+    }
   }
 }

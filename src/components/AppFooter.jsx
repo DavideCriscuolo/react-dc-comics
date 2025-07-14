@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer>
         <div className="container ">
-          <div className="row row-cols-2">
+          <div className="row row-cols-2 p-4">
             <div className="col d-flex">
                 <div className="col list">
                         <h4 className="text-white">DC COMICS</h4>

@@ -1,6 +1,6 @@
 export default function NavBar() {
     return (
-        <nav className="nav justify-content-center ">
+        <nav className="nav justify-content-center">
     <a className="nav-link" href="#" aria-current="page">CHARACTERS</a>
     <a className="nav-link" href="#">COMICS</a>
     <a className="nav-link" href="#">MOVIES</a>

@@ -5,14 +5,39 @@ import shopLoc from "./../img/buy-comics-shop-locator.png"
 import dcVisa from "./../img/buy-dc-power-visa.svg"
 export default function Asaide() {
     return (
-        <aside>
-        <nav className="nav justify-content-center">
-    <a className="nav-link" href="#"><img className=" w-25 p-2" src={comics} alt="" />DIGITAL COMICS</a>
-    <a className="nav-link" href="#"><img className=" w-25  p-2"  src={merch} alt="" />DC MERCHANDISE</a>
-    <a className="nav-link" href="#"><img className=" w-25 p-2"  src={subscriptions} alt="" />SUBSCRIPTIONS</a>
-    <a className="nav-link" href="#"><img  className=" w-25 p-2" src={shopLoc} alt="" />COMIC SHOP LOCATOR</a>
-    <a className="nav-link" href="#"><img  className=" w-25  p-2" src={dcVisa} alt="" />DC POWER VISA</a>
-</nav>
+        <aside className="d-flex justify-content-center align-items-center">
+            <div className="container-fluid d-flex justify-content-center flex-wrap gap-5 h-100">
+
+                <div className=" d-flex justify-content-center align-items-center">
+                    <div><img className=" w-100 p-2" src={comics} alt="" /></div> 
+                    <div><a className="" href="#">DIGITAL COMICS</a> </div>
+                </div>
+
+                
+                <div className=" d-flex justify-content-center align-items-center">
+                    <div><img className=" w-100 p-2" src={merch} alt="" /></div> 
+                    <div><a className="" href="#">DIGITAL COMICS</a> </div>
+                </div>
+                
+                <div className=" d-flex justify-content-center align-items-center">
+                    <div><img className=" w-100 p-2" src={subscriptions} alt="" /></div> 
+                    <div><a className="" href="#">DIGITAL COMICS</a> </div>
+                </div>
+                
+                <div className=" d-flex justify-content-center align-items-center">
+                    <div><img className=" w-100 p-2" src={shopLoc} alt="" /></div> 
+                    <div><a className="" href="#">DIGITAL COMICS</a> </div>
+                </div>
+                
+                       <div className=" d-flex justify-content-center align-items-center">
+                    <div className="cardP"><img className=" w-100 p-2" src={dcVisa} alt="" /></div> 
+                    <div><a className="" href="#">DIGITAL COMICS</a> </div>
+                </div>
+                
+              
+ 
+</div>
+      
 </aside>
     )
     

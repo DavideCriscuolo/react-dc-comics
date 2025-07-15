@@ -4,7 +4,7 @@ import comics from "./../data/comics"
 
 export default function Products(){
     return (
-        <section>
+        <section className="margin_neg">
             <h4 className="title_prod p-3">CURRENT SERIES</h4>
                 <div className="container p-5">
             <div className="row  row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6">

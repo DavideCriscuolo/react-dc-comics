@@ -8,15 +8,22 @@ header {
   }
 }
 
+.bg_jumbo {
+  min-height: 600px;
+  background-image: url("./img/jumbotron.jpg");
+  background-size: cover;
+  background-position: top;
+}
+.margin_neg {
+  margin-top: -20px;
+}
 main {
-  min-height: 200px;
   background-color: #303030;
   .title_prod {
     display: inline-block;
     background-color: #0282f9;
     margin-top: -20px;
   }
-
   .comicImg {
     width: 100%;
     aspect-ratio: 1;

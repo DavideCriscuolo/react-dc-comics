@@ -62,8 +62,10 @@ aside {
 }
 
 footer {
-  background-image: url("./img/footer-bg.jpg");
-  background-size: cover;
+  background-image: url("./img//dc-logo-bg.png"), url("./img/footer-bg.jpg");
+  background-size: 22%, cover;
+  background-repeat: no-repeat;
+  background-position: 80% 0%, center;
   .list {
     ul {
       padding: 0px;

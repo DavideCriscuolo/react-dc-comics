@@ -13,22 +13,22 @@ const asaide = [
   {
     id: 2,
     src: merch,
-    text: "DIGITAL COMICS",
+    text: "DC MERCHANDISE",
   },
   {
     id: 3,
     src: subscriptions,
-    text: "DIGITAL COMICS",
+    text: "SUBSCRIPTION",
   },
   {
     id: 4,
     src: shopLoc,
-    text: "DIGITAL COMICS",
+    text: "COMIC SHOP LOCATOR",
   },
   {
     id: 5,
     src: dcVisa,
-    text: "DIGITAL COMICS",
+    text: "DC POWER VISA",
   },
 ];
 

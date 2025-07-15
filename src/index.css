@@ -11,8 +11,21 @@ header {
 main {
   min-height: 200px;
   background-color: #303030;
+  .title_prod {
+    display: inline-block;
+    background-color: #0282f9;
+    margin-top: -20px;
+  }
+
+  .comicImg {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: top;
+  }
 
   .card {
+    border: none;
     background-color: #303030;
     color: #ffffff;
     .card-img-top {

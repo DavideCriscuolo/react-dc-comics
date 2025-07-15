@@ -5,6 +5,10 @@ import twitter from "./../img/footer-twitter.png"
 import youtube from "./../img/footer-youtube.png"
 import pinterest from "./../img/footer-pinterest.png"
 import periscope from "./../img/footer-periscope.png" 
+
+
+
+
 export default function Footer() {
     return (
         <footer>
@@ -67,10 +71,10 @@ export default function Footer() {
           </div>
         </div>
             <div className="downFooter d-flex justify-content-between align-items-center">
-                <div className="container d-flex justify-content-between align-items-center ">
+                <div className="container d-flex justify-content-between align-items-center flex-wrap gap-3 ">
                     <div><a className="sign p-2" href="">SIGN-UP NOW!</a></div>
-                <div className="social d-flex gap-3">
-                        <div><h4 className="text_blue">FOLLOW US</h4></div>
+                <div className="social d-flex align-items-center  gap-3">
+                        <div><h4 className="text_blue ">FOLLOW US</h4></div>
                     <ul className="  list-inline">
                             <li className="list-inline-item"><a href=" "><img src={facebook} alt="" /></a> </li>
                             <li className="list-inline-item"><a href=" "><img src={twitter} alt="" /></a> </li>

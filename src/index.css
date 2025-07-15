@@ -10,18 +10,24 @@ header {
 
 main {
   min-height: 200px;
-  background-color: black;
+  background-color: #303030;
 
   .card {
-    background-color: black;
+    background-color: #303030;
     color: #ffffff;
     .card-img-top {
       height: 200px;
     }
     .card-body {
-      background-color: black;
+      background-color: #303030;
     }
-    .btn {
+  }
+  .btn {
+    background-color: #0282f9;
+    color: #ffffff;
+    border-radius: 0px;
+    &:hover {
+      border: 1px solid #0282f9;
     }
   }
 }

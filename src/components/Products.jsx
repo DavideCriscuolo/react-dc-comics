@@ -19,7 +19,7 @@ export default function Products(){
                     
 })}
             </div>
-     <div className="text-center "><a className="px-3 btn btn-primary"  href="">LOAD MORE</a></div>
+     <div className="text-center "><a className="px-3 btn"  href="">LOAD MORE</a></div>
 
        
    </div>

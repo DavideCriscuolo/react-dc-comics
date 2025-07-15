@@ -66,17 +66,17 @@ footer {
   background-size: 22%, cover;
   background-repeat: no-repeat;
   background-position: 80% 0%, center;
-  .list {
-    ul {
-      padding: 0px;
-      li {
-        a {
-          text-decoration: none;
-          color: grey;
-        }
+
+  ul {
+    padding: 0px;
+    li {
+      a {
+        text-decoration: none;
+        color: grey;
       }
     }
   }
+
   .downFooter {
     background-color: #303030;
     min-height: 150px;

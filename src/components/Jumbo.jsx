@@ -1,15 +1,3 @@
 export default function Jumbo() {
-    
-
-    return (
-    
-<div class="bg_jumbo">
-
-</div>
-
-
-
-
-)
-
+  return <div className="bg_jumbo"></div>;
 }
